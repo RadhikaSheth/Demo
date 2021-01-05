@@ -1,0 +1,103 @@
+.App {
+  text-align: center;
+}
+input[type=text] {
+  border-left: 1px solid ;
+  width : 40 ;
+  align-items: center;
+  border: 1 px;
+}
+div {
+  text-align: center;
+}
+.but {    
+  background-color:black;
+  color:white;
+  border: 2px solid black;
+  padding: 50 50;
+  width: 150px;
+  height: 50px;
+
+}
+.but1{
+  
+  background-color: white;
+  color: black;
+  padding: 60 60;
+  width: 50px;
+  height: 30px;
+
+}
+
+.but1:hover{
+  background-color: #e7e7e7;
+  
+}
+.but:hover{
+  background-color: #e7e7e7;
+  color: black;
+}
+.align{
+    text-align: left;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+li {
+  float: left;
+}
+.link{
+  margin-bottom: 0;
+  margin-left: 0;
+  font-size: large;
+  padding: 10px 12px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style-type: none;
+  color: white;
+}
+.link :hover{
+  color:white;
+}
+.divcss{
+  text-align: left;
+  margin-left: 30%;
+}
+table{
+  margin-left: auto;
+  margin-right: auto;
+}
+td{
+  text-align:left;
+  width : 600px;
+  height: 50px;
+  padding: 15px;
+}
+th{
+  text-align:left;
+  width :40%;
+  padding: 15px;
+}
+.disImg{
+  text-align:center;
+  width: 200px;
+}
+.disName{
+  text-align: justify;
+}
+.column {
+  float: left;
+  width: 50%;
+  padding: 0px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
